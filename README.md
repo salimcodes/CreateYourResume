@@ -23,7 +23,7 @@ I have created a template GitHub repository (or repo) specially for Microsoft Le
 
 The template features a starter app used to deploy using Azure Static Web Apps. 
 
-1. Navigate to the following location to create a new repository: https://github.com/salimcodes/AzureResume/generate 
+1. Navigate to the following location to create a new repository: https://github.com/salimcodes/CreateYourResume/generate 
 
 2. Name your repository MyResume. Note: Azure Static Web Apps requires at least one HTML file to create a web app. The repository you create in this step includes a single index.html file. 
 
