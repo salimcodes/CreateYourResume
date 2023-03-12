@@ -22,7 +22,7 @@ The template features a starter app used to deploy using Azure Static Web Apps.
 
 1. Navigate to the following location to create a new repository: https://github.com/salimcodes/CreateYourResume/generate 
 
-2. Name your repository MyResume. Note: Azure Static Web Apps requires at least one HTML file to create a web app. The repository you create in this step includes a single index.html file. 
+2. Name your repository `MyResume`. Note: Azure Static Web Apps requires at least one HTML file to create a web app. The repository you create in this step includes a single index.html file. 
 
 3. Select Create repository from template. 
 
@@ -36,7 +36,12 @@ Previously you created a GitHub repository that housed the materials needed to c
 
 2. Open the `URL` tab 
 
-3. Input https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/MyResume.git into the URL input, and select `Clone`. 
+3. Clone the repository
+
+```
+git clone https://github.com/<GITHUB_USERNAME>/MyResume.git
+```
+
 
 Note: Make note of the location where the repository is saved.  
 
