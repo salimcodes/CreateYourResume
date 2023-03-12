@@ -16,7 +16,7 @@ By completing this demo session, you will grow your skills with Azure and you wi
 
 **Why do this section?**
 
-I have created a template GitHub repository (or repo) specially for Microsoft Learn Student Ambassadors to use for this experience. When you append /generate to the end of the repo URL, you are telling GitHub that you want to generate a new repository, and use the provided repo as a template for the repo you generate. This template repository has the content and styling definitions that allow you to create a web application that can serve as your online resume. 
+I have created a template GitHub repository (or repo) specially for this session for your use. When you append `/generate` to the end of the repo URL, you are telling GitHub that you want to generate a new repository, and use the provided repo as a template for the repo you generate. This template repository has the content and styling definitions that allow you to create a web application that can serve as your online resume. 
 
 The template features a starter app used to deploy using Azure Static Web Apps. 
 
