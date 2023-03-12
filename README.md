@@ -1,17 +1,14 @@
-
 ## Section 0: Prerequisites 
 
 To get started, complete the following items if you haven’t already 
 
 - Create a [GitHub](https://github.com/) account  if you do not have one.
 
-- Create an Azure for Students account 
+- Create an Azure for Students account. 
 
 - Download [Visual Studio Code](https://code.visualstudio.com/Download) if you do not have it. 
 
-- Download the [Azure Static Web Apps extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps) for Visual Studio Code 
-
-- Download [GitHub Desktop](https://desktop.github.com/) [OPTIONAL] 
+- Download the [Azure Static Web Apps extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps) for Visual Studio Code.
 
 By completing this demo session, you will grow your skills with Azure and you will become trained on the use of GitHub. 
  
@@ -35,11 +32,11 @@ The template features a starter app used to deploy using Azure Static Web Apps.
 
 Previously you created a GitHub repository that housed the materials needed to create your web app.  Now you’ll create a local copy (or clone) so you can modify the code on your system. Cloning repos is an important part of a developer’s work. Imagine you’re a software engineer in a large company, and all the engineers at your company are working on the same codebase. You wouldn’t want everyone to make changes to the source code at the same time – so everyone clones the source code to their own local repository, makes and tests the necessary changes, and pushes those changes to the source code when they are ready. This makes for greater organizational collaboration. 
 
-1. Navigate to File > Clone Repository 
+1. Navigate to `File` > `Clone Repository` 
 
-2. Open the URL tab 
+2. Open the `URL` tab 
 
-3. Input https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/MyResume.git into the URL input, and select Clone 
+3. Input https://github.com/<YOUR_GITHUB_ACCOUNT_NAME>/MyResume.git into the URL input, and select `Clone`. 
 
 Note: Make note of the location where the repository is saved.  
 
@@ -49,13 +46,13 @@ Note: Make note of the location where the repository is saved.
 
 With the copy created locally, you’re all set to start working on your code and site. Now you’ll explore how to deploy your site to the cloud. You’ll use Azure Static Web Apps to host your site. A static web app (SWA) is a site built with JavaScript, HTML, CSS and potentially other tools, and SWAs are becoming increasingly common. Using Azure Static Web Apps will allow you to quickly post your site (and resume) to the world. 
 
-1. Open Visual Studio Code and go to File > Open Folder to open the cloned repository in the editor.  
+1. Open Visual Studio Code and go to `File` > `Open Folder` to open the cloned repository in the editor.  
 
 2. Inside Visual Studio Code, select the Azure logo in the Activity Bar to open the Azure extensions window. 
 
 - Note: You are required to sign in to Azure and GitHub in Visual Studio Code to continue. If you are not already authenticated, the extension will prompt you to sign in to both services during the creation process. 
 
-3. Under the Static Web Apps label, select the plus sign. 
+3. Under the `Static Web Apps` label, select the plus sign. 
 
 4. The command palette opens at the top of the editor and prompts you to select a subscription name. Select your subscription and press <Enter>. 
 
@@ -94,23 +91,15 @@ We will now do a small customization step customize your webapp you can edit it 
 
 1. Navigate to the Explorer Tab in Visual Studio Code   
 
-2. Navigate to the “src” folder, and within it, the “index.html” file  
+2. Navigate to the `src` folder, and within it, the “index.html” file  
 
-3. Find the “Your Name” Heading. Replace “Your Name” with your real name.   
+3. Find the `Your Name` Heading. Replace `Your Name` with your real name.   
 
-4. Save your changes in VS Code   
+4. Save your changes in VS Code.   
 
-5. Navigate to GitHub Desktop and ensure that your Current Repository is your Ambassador-SWA-Pilot repo (GitHub Desktop should reflect your recent changes like below)  
-
-6. In the bottom left of GitHub Desktop, give your changes a title (like “Added My Name” and add a description  
-
-7. Select “Commit to Main”  
-
-8. Now, push your changes to GitHub by selecting “Push Origin”    
-  
-9. Navigate to Actions in GitHub and view your web app’s build progress  
-
-10. When the build is complete, refresh your app and the changes should be reflected  
+5. Now, push your changes to GitHub.   
+ 
+6. When the build is complete, refresh your app and the changes should be reflected  
 
 Thank you for completing this exercise and attending our session!  
 
