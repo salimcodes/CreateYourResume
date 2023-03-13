@@ -61,12 +61,12 @@ With the copy created locally, you’re all set to start working on your code an
 
 4. The command palette opens at the top of the editor and prompts you to select a subscription name. Select your subscription and press <Enter>. 
 
-5. Next, name your application. Type MyResume and press <Enter>. 
+5. Next, name your application. Type `<YourNameResume` and press <Enter>. 
 
 5. Select a region close to you. 
 - Note: Azure Static Web Apps globally distributes your static assets. The region you select determines where your optional staging environments and API function app will be located. 
 
-6. Select Custom  Enter /src as the location for the application files and press <Enter>. This app does not produce a build output. Ensure the build output location is empty and press <Enter>. 
+6. Select Custom  Enter `/src` as the location for the application files and press `<Enter>`. This app does not produce a build output. Ensure the build output location is empty and press `<Enter>`. 
 
 7. Select “Open Actions in GitHub.” This will launch the GitHub Actions tab in your browser. You will see the workflow run as it is creating the app. When your webapp is built and deployed, you will see a check for the workflow run.   
 
@@ -75,15 +75,6 @@ With the copy created locally, you’re all set to start working on your code an
 - Once the deployment is complete, you can navigate directly to your website. 
 
 8. To view the website in the browser, right-click on the project in the Static Web Apps extension, and select Browse Site. 
-
-If your build has failed you may see this in your Actions tab on GitHub:
- ![Failed build in GitHub actions](https://user-images.githubusercontent.com/32169182/175279158-50787c0d-2c28-4140-9724-0449023e8ae1.png)
- 
- To fix this you can click the pencil icon beside the workflow run and click View workflow file
- ![View workflow file](https://user-images.githubusercontent.com/32169182/175279494-92985faa-a4aa-42b1-8f61-50cf5032816a.png)
- 
- Then change line 30 to be /src instead of /
- ![Change app location](https://user-images.githubusercontent.com/32169182/175279576-fc87decb-99d0-41b7-8be3-ab9a56d9ca2a.png)
 
 
 ## Section 4: Customize Your Static Web App 
