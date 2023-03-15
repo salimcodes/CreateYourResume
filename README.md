@@ -99,3 +99,6 @@ We will now do a small customization step customize your webapp you can edit it 
 
 Thank you for completing this exercise and attending our session!  
 
+### More Resources 
+- [An overview of the Azure Static Web App](https://learn.microsoft.com/en-us/azure/static-web-apps/overview)
+- Learn more on how to automate your workflow from idea to production using [GitHub Actions](https://github.com/features/actions)
